@@ -1,0 +1,164 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tipografía y fondo */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  margin-bottom: 16px;
+  color: #333;
+}
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+}
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 6px;
+}
+
+/* Navegación */
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  background: #333;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Contenedor principal */
+main {
+  padding: 24px;
+  max-width: 960px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Flexbox para la sección materia */
+.materia-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 20px;
+}
+.materia-flex .item {
+  background: #f9f9f9;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  flex: 1 1 100%;
+}
+.materia-flex .item-examenes {
+  flex: 1 1 30%;
+}
+.materia-flex .item-bibliografia {
+  flex: 1 1 30%;
+}
+.materia-flex .item-actividades {
+  flex: 2 1 60%;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background: #f4f4f4;
+  font-weight: 600;
+}
+tbody tr:nth-child(odd) {
+  background: #fafafa;
+}
+tbody tr:hover {
+  background: #f1f1f1;
+  transition: background 0.3s;
+}
+
+/* Formulario */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+input:focus,
+textarea:focus {
+  border-color: #333;
+  outline: none;
+}
+button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background 0.3s, transform 0.2s;
+}
+button:hover {
+  background: #555;
+  transform: translateY(-2px);
+}
+
+/* Enlaces generales */
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #004999;
+}
+
+/* Responsive simple */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    margin: 20px 10px;
+    padding: 16px;
+  }
+  .materia-flex .item {
+    flex: 1 1 100%;
+  }
+}

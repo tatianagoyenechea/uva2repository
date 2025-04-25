@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Diseño y Desarrollo Web</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="css/style.css"><!-- tu CSS -->
+</head>
+<body>
+
+  <!-- 1. Cabecera con menú -->
+  <header class="bg-light py-2">
+    <nav class="container d-flex">
+      <a href="index.html" class="me-3">Home</a>
+      <a href="avisos.html" class="me-3">Avisos</a>
+      <a href="sobremi.html" class="me-3">Sobre mí</a>
+      <a href="materias2025.html" class="me-3">Materias 2025</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- 2. Título de la página -->
+  <main class="container my-4">
+    <h1 class="text-center mb-4">Diseño y Desarrollo Web</h1>
+
+    <!-- 3. Grid de contenido -->
+    <div class="row g-3">
+      <!-- Columna izquierda -->
+      <aside class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Fechas de exámenes</h5>
+            <!-- aquí pones tus fechas -->
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Bibliografía</h5>
+            <!-- aquí tu bibliografía -->
+          </div>
+        </div>
+      </aside>
+
+      <!-- Columna derecha -->
+      <section class="col-md-8">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Actividades UVAs</h5>
+            <ul>
+              <li>
+                <a href="https://github.com/tuusuario/uva1" target="_blank" rel="noopener">
+                  Repositorio UVA 1
+                </a>
+                |
+                <a href="https://tuusuario.github.io/uva1" target="_blank" rel="noopener">
+                  GitHub Pages UVA 1
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/tuusuario/uva2" target="_blank" rel="noopener">
+                  Repositorio UVA 2
+                </a>
+                |
+                <a href="https://tuusuario.github.io/uva2" target="_blank" rel="noopener">
+                  GitHub Pages UVA 2
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 4. Pie de página -->
+  <footer class="bg-light py-2">
+    <div class="container text-center">
+      Curso: Nro curso / Profesora: Patricia Litovicius
+    </div>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
