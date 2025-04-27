@@ -140,12 +140,12 @@ button:hover {
 
 /* Enlaces generales */
 a {
-  color: #0066cc;
+  color: #2600bf;
   text-decoration: none;
   transition: color 0.3s;
 }
 a:hover {
-  color: #004999;
+  color: #fdfdfd;
 }
 
 /* Responsive simple */

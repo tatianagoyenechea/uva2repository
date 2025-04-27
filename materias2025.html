@@ -1,21 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-  <body>
-    <nav class="bg-gray-200 bg-secondary py-2">
-      <div class="container mx-auto">
-        <ul class="flex justify-center space-x-6 nav">
-          <li class="nav-item"><a class="nav-link text-white font-medium hover:text-gray-900" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link text-white font-medium hover:text-gray-900" href="avisos.html">Avisos</a></li>
-          <li class="nav-item"><a class="nav-link text-white font-medium hover:text-gray-900" href="sobremi.html">Sobre mí</a></li>
-          <li class="nav-item"><a class="nav-link text-white font-medium hover:text-gray-900" href="materias2025.html">Materias 2025</a></li>
-          <li class="nav-item"><a class="nav-link text-white font-medium hover:text-gray-900" href="contacto.html">Contacto</a></li>
-        </ul>
-      </div>
-    </nav>
 <head>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Materias 2025</title>
-  <link rel="stylesheet" href="style.css">
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Bootstrap CSS -->
@@ -23,16 +11,55 @@
   <!-- Estilos personalizados -->
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header><!-- Menú igual al index --></header>
-  <main>
-    <h1>Materias 2025</h1>
-    <ul>
-      <li>Sistemas de la Información I</li>
-      <li>Marketing</li>
-      <li>Diseño y Desarrollo Web</li>
-      <li> <href="https://virtualbsp.uade.edu.ar/d2l/home/43569" target="_blank">Diseño y Desarrollo Web</a> </li>
-    </ul>
+
+<body class="flex flex-col min-h-screen">
+  <!-- Menú de navegación principal -->
+  <header class="bg-gray-800">
+    <nav class="container mx-auto py-4">
+      <ul class="flex justify-center space-x-6">
+        <li><a class="text-white font-medium hover:text-gray-400" href="index.html">Inicio</a></li>
+        <li><a class="text-white font-medium hover:text-gray-400" href="avisos.html">Avisos</a></li>
+        <li><a class="text-white font-medium hover:text-gray-400" href="sobremi.html">Sobre mí</a></li>
+        <li><a class="text-white font-medium hover:text-gray-400" href="materias2025.html">Materias 2025</a></li>
+        <li><a class="text-white font-medium hover:text-gray-400" href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="flex-grow container mx-auto px-4 py-8">
+    <!-- Barra de enlaces del menú -->
+    <div class="bg-gray-300 text-center font-semibold py-2 mb-6">
+      Enlaces del menú
+    </div>
+
+    <!-- Título principal -->
+    <h1 class="text-2xl font-bold text-center mb-8">
+      Materias 2025
+    </h1>
+
+    <!-- Lista de materias -->
+    <div class="bg-gray-100 p-6 rounded shadow-md">
+      <ul class="list-disc list-inside space-y-4">
+        <li>Sistemas de la Información I</li>
+        <li>Marketing</li>
+        <li>
+          <a href="https://virtualbsp.uade.edu.ar/d2l/home/43569" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
+            Diseño y Desarrollo Web
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Pie dentro del main -->
+    <div class="bg-gray-300 text-center font-semibold py-2 mt-8">
+      Curso: Nro curso / Profesora: Patricia Litovicius
+    </div>
   </main>
+
+  <!-- Footer general -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    Proyecto Académico - Tatiana Goyenechea
+  </footer>
 </body>
 </html>

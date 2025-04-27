@@ -1,0 +1,37 @@
+1. Desarrollo del Sitio:
+
+El sitio web fue desarrollado utilizando HTML5 para la estructura de las páginas y Tailwind CSS como framework principal de estilos. 
+Elegí Tailwind porque me facilita aplicar clases de diseño directamente en el HTML,
+ sin tener que escribir mucho CSS y personalizarlo. Me ayudó a ahorrar tiempo y a lograr un diseño moderno y adaptativo de forma más sencilla, 
+ también incluí Bootstrap, aunque prioricé usar más Tailwind para mantener un estilo visual más limpio.
+  Toda la codificación fue realizada de forma manual, respetando las indicaciones de la consigna.
+
+2. Criterios de Diseño:
+
+Para el diseño, busqué que el sitio se vea ordenado, claro y que sea fácil de navegar. 
+Utilicé una paleta de colores neutros: gris claro para los fondos, gris oscuro para el menú y el pie de página, y azul para destacar los enlaces.
+ Esto ayuda a que el contenido principal sea lo que más llame la atención. 
+ La tipografía la mantuve simple y limpia, similar a la que propone Tailwind por defecto,
+  para que sea más legible en distintos dispositivos. Apliqué principios de la teoría de la Gestalt, 
+  como la ley de proximidad (agrupando los elementos relacionados) y la ley de continuidad (alineando los bloques de contenido de forma coherente), 
+  buscando que los pueda entender la estructura visual de manera intuitiva.
+
+3. Buenas Prácticas:
+
+Desde el inicio apliqué buenas prácticas de desarrollo. 
+Utilicé etiquetas HTML5 semánticas como <header>, <main>, <footer>, <nav>, <section>, 
+para que el sitio sea más accesible y fácil de entender tanto para las personas como para los motores de búsqueda.
+ También separé el contenido (estructura HTML) del diseño (estilos en CSS y clases de Tailwind).
+  Cuidé la indentación y la organización del código para que sea más fácil de leer y mantener en el futuro.
+   Además, respeté la apertura y cierre correcto de todas las etiquetas y cuidé que los enlaces externos se abrieran de forma segura en nuevas pestañas (target="_blank" y rel="noopener noreferrer").
+
+4. Estrategias de Responsividad:
+
+Para lograr que el sitio sea responsive y se adapte a celulares, tablets y computadoras,
+ utilicé Tailwind CSS, que ya incluye clases específicas para hacer diseño adaptativo. 
+ Apliqué Flexbox para distribuir los bloques de contenido de manera flexible según el tamaño de pantalla.
+Además, usé breakpoints (md: en Tailwind) para cambiar la distribución en pantallas más chicas.
+No tuve que escribir media queries manuales porque Tailwind ya las maneja automáticamente. 
+Gracias a ello, el sitio se acomoda de forma fluida en distintos dispositivos sin necesidad de mucho código extra.
+
+POR TEMAS DE INTENTOS DE HACKEO NO PUSE MI FOTO PERSONAL, DISCULPE. 
